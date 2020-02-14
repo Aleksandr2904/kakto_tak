@@ -1,0 +1,88 @@
+@media (min-width:768px){
+    .black_bar{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .black_bar_h1{
+        font-size: 16px;
+        letter-spacing: -0.32px;
+
+    }
+
+    .header_time{
+        display: block;
+    }
+
+    .header_clock{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: -0.32px;
+    }
+
+    .header_date{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: -0.32px;
+    }
+
+    .navigation{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .navigation_h2{
+        padding-top: 15px;
+    }
+
+    .form_search{
+        position: relative;
+        float:right;
+
+        width:320px;
+        height:45px;
+    }
+
+    .navigation_search{
+        position:absolute;
+        top:14px;
+        right: 20px;
+
+        padding:8px;
+    }
+
+    .search {
+        display: block;
+        font-size:14px;
+        line-height:18px;
+
+        width:320px;
+        height:45px;
+        padding:3px 50px 4px 20px;
+
+        letter-spacing:-.28px;
+
+        border:2px solid #ebebeb;
+        border-radius:30px;
+        background:#ebebeb; 
+    }
+
+    .city_a{
+        display: block;
+
+        padding-right:17px;
+
+        color:#448ccb;
+        background:url("/img/treygolnik.png");
+        background-repeat:no-repeat;
+        background-position:right center;
+    }
+
+    .city{
+        padding-bottom:3px;
+
+        border-bottom:1px dashed #448ccb;
+    }
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>мобилка</title>
+
+    <link rel="preload" href="fonts/ArialMT.woff2" as="font">
+    <link rel="preload" href="fonts/Arial-BoldMT.woff2" as="font">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/css_media/header768+.css">
+    <link rel="stylesheet" href="css/css_media/header1024.css">
+
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/time.js"></script>
+    <script src="js/minimize-menu.js"></script>
+</head>
+<body>
+    <div class="all_container">
+        <header>
+            <div class="black_bar">
+                <h1 class="black_bar_h1">
+                    Самые <a href="#" class="black_bar_h1_a">свежие новости</a> в реальном времени
+                </h1>
+
+                <time class="header_time">
+                    <span class="js-header_clock header_clock"></span>
+
+                    <span class="js-header_date header_date"></span>
+                </time>
+            </div>
+
+            <nav class="navigation"> <!--Меню 1-->
+                <button aria-label="развернуть навигацию" class="js-navigation_button navigation_button" aria-expanded ="false" aria-controls="nav"></button>
+
+                <ul class="js-navigation_menu_ul navigation_menu_ul" id="nav">
+                    <li class="navigation_menu_li">
+                        <p class="navigation_menu_p">
+                            Главная
+                        </p>
+                    </li>
+
+                    <li class="navigation_menu_li">
+                        <p class="navigation_menu_p">
+                            Политика
+                        </p>
+                    </li>
+
+                    <li class="navigation_menu_li">
+                        <p class="navigation_menu_p">
+                            Общество
+                        </p>
+                    </li>
+
+                    <li class="navigation_menu_li">
+                        <p class="navigation_menu_p">
+                            Экономика
+                        </p>
+                    </li>
+
+                    <li class="navigation_menu_li">
+                        <p class="navigation_menu_p">
+                            В мире
+                        </p>
+                    </li>
+
+                    <li class="navigation_menu_li">
+                        <p class="navigation_menu_p">
+                            Происшествия
+                        </p>
+                    </li>
+
+                    <li class="navigation_menu_li">
+                        <p class="navigation_menu_p">
+                            Спорт
+                        </p>
+                    </li>
+
+                    <li class="navigation_menu_li">
+                        <p class="navigation_menu_p">
+                            Наука
+                        </p>
+                    </li>
+
+                    <li class="navigation_menu_li">
+                        <p class="navigation_menu_p">
+                            Туризм
+                        </p>
+                    </li>
+                </ul>
+
+                <h2 class="navigation_h2">
+                    Новостное агенство
+                </h2>
+
+                <form action="#" class="form_search">
+                    <input class="search" required="required" type="search" placeholder="Поиск по сайту">
+
+                    <button class="navigation_search" aria-label="поиск" type="submit"></button>
+                </form>
+            </nav>
+
+            <div class="dashboard"> <!--Меню 2-->
+                <time class="dashboard_time">
+                    <span class="js-date date"></span>
+
+                    <span class="js-time time"></span>
+                </time>
+
+                <a href="#" class="city_a">
+                    <span class="city">Москва</span> 
+                </a>
+
+                <span class="weather">+22℃</span>
+            </div>
+        </header>
+    </div>
+</body>
+</html>
